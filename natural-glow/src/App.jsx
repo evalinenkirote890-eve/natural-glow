@@ -1,9 +1,16 @@
+import React from "react";
+import Header from "./components/layout/Header";
+import Hero from "./components/sections/Hero";
+import About from "./components/sections/About";
+
 function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <h1 className="text-5xl font-bold text-pink-600">🌸 Tailwind is Working! 🌸</h1>
+    <div className="relative">
+      <Header />
+      <Hero />
+      <About />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
