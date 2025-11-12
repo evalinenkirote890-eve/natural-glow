@@ -8,6 +8,7 @@ import Products from "./components/sections/Products";
 import Testimonials from "./components/common/Testimonials";
 import Button from "./components/common/Button";
 import Cards from "./components/common/Cards";
+import Footer from "./components/layout/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Testimonials />
       <Button />
       <Cards />
+      <Footer />
     </div>
   );
 }
