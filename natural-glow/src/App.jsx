@@ -4,6 +4,7 @@ import Navigation from "./components/layout/Navigation";
 import Hero from "./components/sections/Hero";
 import About from "./components/sections/About";
 import Features from "./components/sections/Features";
+import Testimonials from "./components/common/Testimonials";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <About />
       <Features/>
+      <Testimonials />
     </div>
   );
 }
