@@ -10,7 +10,6 @@ const Features = () => {
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-          {/* Feature 1 */}
           <div className="p-8 rounded-2xl shadow-lg bg-glow-light/10 hover:shadow-xl transition duration-300">
             <div className="flex justify-center mb-4">
               <Leaf className="w-10 h-10 text-glow-dark" />
@@ -24,7 +23,6 @@ const Features = () => {
             </p>
           </div>
 
-          {/* Feature 2 */}
           <div className="p-8 rounded-2xl shadow-lg bg-glow-light/10 hover:shadow-xl transition duration-300">
             <div className="flex justify-center mb-4">
               <Sparkles className="w-10 h-10 text-glow-dark" />
@@ -38,7 +36,7 @@ const Features = () => {
             </p>
           </div>
 
-          {/* Feature 3 */}
+          
           <div className="p-8 rounded-2xl shadow-lg bg-glow-light/10 hover:shadow-xl transition duration-300">
             <div className="flex justify-center mb-4">
               <Droplets className="w-10 h-10 text-glow-dark" />
