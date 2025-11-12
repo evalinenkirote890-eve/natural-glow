@@ -4,6 +4,7 @@ import Navigation from "./components/layout/Navigation";
 import Hero from "./components/sections/Hero";
 import About from "./components/sections/About";
 import Features from "./components/sections/Features";
+import Products from "./components/sections/Products";
 import Testimonials from "./components/common/Testimonials";
 import Button from "./components/common/Button";
 import Cards from "./components/common/Cards";
@@ -16,6 +17,7 @@ function App() {
       <Hero />
       <About />
       <Features/>
+      <Products />
       <Testimonials />
       <Button />
       <Cards />
