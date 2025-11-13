@@ -49,7 +49,7 @@ const About = () => {
           />
         </motion.div>
 
-        {/* ✅ Right Image Side with Animation */}
+        {/* ✅ Right Image Side with Lazy Loading + Animation */}
         <motion.div
           className="md:w-1/2 flex justify-center"
           initial={{ opacity: 0, x: 60 }}
@@ -60,7 +60,9 @@ const About = () => {
           <img
             src={productImage}
             alt="Natural Glow products"
+            loading="lazy" // ✅ Enables lazy loading
             className="w-full max-w-md rounded-2xl shadow-xl object-cover"
+            decoding="async" // ✅ Helps browsers render faster
           />
         </motion.div>
       </div>
