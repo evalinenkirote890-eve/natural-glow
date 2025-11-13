@@ -10,6 +10,7 @@ import Manufacturers from "./components/sections/Manufacturers";
 import Testimonials from "./components/common/Testimonials";
 import Button from "./components/common/Button";
 import Cards from "./components/common/Cards";
+import SectionWrapper from "./components/common/SectionWrapper";
 import Footer from "./components/layout/Footer";
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
       <Testimonials />
       <Button />
       <Cards />
+      <SectionWrapper />
       <Footer />
     </div>
   );
