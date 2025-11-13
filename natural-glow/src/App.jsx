@@ -6,6 +6,7 @@ import About from "./components/sections/About";
 import Features from "./components/sections/Features";
 import Products from "./components/sections/Products";
 import Newsletter from "./components/sections/Newsletter";
+import Manufacturers from "./components/sections/Manufacturers";
 import Testimonials from "./components/common/Testimonials";
 import Button from "./components/common/Button";
 import Cards from "./components/common/Cards";
@@ -21,6 +22,7 @@ function App() {
       <Features/>
       <Products />
       <Newsletter />
+      <Manufacturers />
       <Testimonials />
       <Button />
       <Cards />
