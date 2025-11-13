@@ -16,11 +16,8 @@ import "./index.css";
 function App() {
   return (
     <>
-  
       <Header />
-
-      
-      <main className="main-container relative">
+      <main>
         <Hero />
         <About />
         <Features />
@@ -32,8 +29,6 @@ function App() {
         <Cards />
         <SectionWrapper />
       </main>
-
-      
       <Footer />
     </>
   );

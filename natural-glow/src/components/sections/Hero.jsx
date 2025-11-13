@@ -1,56 +1,53 @@
 import React from "react";
-import heroBanner from "../../assets/images/hero-banner.jpg";
+import heroBanner from "../../assets/images/hero-banner.jpg"; // ✅ Your image
 
 const Hero = () => {
   return (
     <section
       id="home"
-      className="relative h-[90vh] flex items-center justify-center text-center text-white overflow-hidden"
+      className="relative h-screen flex flex-col justify-center items-center text-center text-white overflow-hidden sticky top-0 z-40"
     >
-      {/* Lazy-loaded background image */}
+      {/* ✅ Background Image */}
       <img
         src={heroBanner}
         alt="PureGlow Skincare Banner"
         loading="lazy"
-        className="absolute inset-0 w-full h-full object-cover z-0"
+        className="absolute inset-0 w-full h-full object-cover"
       />
 
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-black/40 z-10"></div>
+      {/* ✅ Dark Overlay */}
+      <div className="absolute inset-0 bg-black/50"></div>
 
-      {/* Content */}
-      <div className="relative z-20 max-w-3xl px-6 mx-auto">
+      {/* ✅ Content Inside Banner */}
+      <div className="relative z-10 max-w-3xl px-6">
         <h1 className="text-4xl md:text-6xl font-bold mb-4 leading-tight">
-          Glow Naturally <br /> with Every Touch
+          PureGlow Skincare
         </h1>
-        <p className="text-gray-200 mb-8 text-lg">
-          Discover nature’s secret to radiant, healthy, and confident skin —
-          powered by pure organic care.
+
+        <p className="text-gray-200 mb-8 text-lg md:text-xl">
+          Natural beauty powered by science — reveal your healthiest, glowing skin.
         </p>
-        <button className="bg-amber-400 text-white px-8 py-3 rounded-full font-semibold hover:bg-amber-500 transition">
-          Explore Now
+
+        <button className="bg-amber-400 hover:bg-amber-500 text-white px-8 py-3 rounded-md font-medium transition duration-300 shadow-lg">
+          Shop Now
         </button>
       </div>
 
-      {/* Sticky Horizontal Stats */}
-      <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 w-[90%] md:w-[70%] bg-amber-400/95 backdrop-blur-md text-white py-4 px-6 rounded-2xl shadow-lg z-50">
-        <div className="flex justify-between items-center flex-wrap text-center gap-4">
-          <div>
-            <h3 className="text-2xl font-bold">5+</h3>
-            <p className="text-sm uppercase tracking-wide">Years Experience</p>
-          </div>
-          <div>
-            <h3 className="text-2xl font-bold">100%</h3>
-            <p className="text-sm uppercase tracking-wide">Organic Ingredients</p>
-          </div>
-          <div>
-            <h3 className="text-2xl font-bold">20K+</h3>
-            <p className="text-sm uppercase tracking-wide">Happy Clients</p>
-          </div>
-          <div>
-            <h3 className="text-2xl font-bold">15+</h3>
-            <p className="text-sm uppercase tracking-wide">Products Launched</p>
-          </div>
+      {/* ✅ Stats Section */}
+      <div className="relative z-10 mt-16 flex flex-wrap justify-center gap-10 text-white">
+        <div className="flex flex-col items-center">
+          <span className="text-3xl font-bold text-amber-400">5+</span>
+          <p className="text-sm uppercase tracking-wide">Years Experience</p>
+        </div>
+
+        <div className="flex flex-col items-center">
+          <span className="text-3xl font-bold text-amber-400">100%</span>
+          <p className="text-sm uppercase tracking-wide">Organic Ingredients</p>
+        </div>
+
+        <div className="flex flex-col items-center">
+          <span className="text-3xl font-bold text-amber-400">20K+</span>
+          <p className="text-sm uppercase tracking-wide">Happy Clients</p>
         </div>
       </div>
     </section>
