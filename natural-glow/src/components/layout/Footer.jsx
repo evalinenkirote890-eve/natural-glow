@@ -78,7 +78,7 @@ const Footer = () => {
             <ul>
               <li>
                 Email:{" "}
-                <a href="mailto:hello@pureglow.com">hello@pureglow.com</a>
+                <a href="evalunah:hello@naturalglow.com">hello@pureglow.com</a>
               </li>
               <li>Phone: +254 712 929 669</li>
               <li>Nairobi, Kenya</li>

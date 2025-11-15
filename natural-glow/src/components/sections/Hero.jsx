@@ -1,53 +1,64 @@
 import React from "react";
-import heroBanner from "../../assets/images/hero-banner.jpg"; // ✅ Your image
+import heroImg from "../../assets/images/hero-banner.jpg";
 
 const Hero = () => {
   return (
-    <section
-      id="home"
-      className="relative h-screen flex flex-col justify-center items-center text-center text-white overflow-hidden sticky top-0 z-40"
-    >
-      {/* ✅ Background Image */}
-      <img
-        src={heroBanner}
-        alt="PureGlow Skincare Banner"
-        loading="lazy"
-        className="absolute inset-0 w-full h-full object-cover"
-      />
+    <section className="bg-glow-cream py-20">
+      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
 
-      {/* ✅ Dark Overlay */}
-      <div className="absolute inset-0 bg-black/50"></div>
+        
+        <div>
+          <h1 className="text-4xl md:text-5xl font-bold text-glow-brown mb-4">
+            Natural Glow 
+          </h1>
 
-      {/* ✅ Content Inside Banner */}
-      <div className="relative z-10 max-w-3xl px-6">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4 leading-tight">
-          PureGlow Skincare
-        </h1>
+          <p className="text-lg text-glow-clay mb-6 leading-relaxed">
+  Embrace your natural glow with products crafted for radiant, healthy skin.  
+  Our formulas are designed to nourish, protect, and restore your beauty with ingredients  
+  that are gentle, effective, and safe for all skin types.
+</p>
 
-        <p className="text-gray-200 mb-8 text-lg md:text-xl">
-          Natural beauty powered by science — reveal your healthiest, glowing skin.
-        </p>
+          
+          <div className="flex gap-4 mb-10">
+            <button className="bg-glow-amber text-white px-6 py-3 rounded-xl font-semibold">
+              Shop Now
+            </button>
+            <button className="bg-glow-amberDark text-white px-6 py-3 rounded-xl font-semibold">
+              Learn More
+            </button>
+            <button className="border border-glow-amber px-6 py-3 rounded-xl text-glow-amber font-semibold">
+              Contact Us
+            </button>
+          </div>
 
-        <button className="bg-amber-400 hover:bg-amber-500 text-white px-8 py-3 rounded-md font-medium transition duration-300 shadow-lg">
-          Shop Now
-        </button>
-      </div>
-
-      {/* ✅ Stats Section */}
-      <div className="relative z-10 mt-16 flex flex-wrap justify-center gap-10 text-white">
-        <div className="flex flex-col items-center">
-          <span className="text-3xl font-bold text-amber-400">5+</span>
-          <p className="text-sm uppercase tracking-wide">Years Experience</p>
+          {/* STATS */}
+          <div className="flex flex-wrap gap-10">
+            <div>
+              <h3 className="text-2xl font-bold text-glow-brown">10+</h3>
+              <p className="text-glow-clay">Years Experience</p>
+            </div>
+            <div>
+              <h3 className="text-2xl font-bold text-glow-brown">500+</h3>
+              <p className="text-glow-clay">Happy Clients</p>
+            </div>
+            <div>
+              <h3 className="text-2xl font-bold text-glow-brown">50+</h3>
+              <p className="text-glow-clay">Products</p>
+            </div>
+            <div>
+              <h3 className="text-2xl font-bold text-glow-brown">100%</h3>
+              <p className="text-glow-clay">Natural & Safe</p>
+            </div>
+          </div>
         </div>
 
-        <div className="flex flex-col items-center">
-          <span className="text-3xl font-bold text-amber-400">100%</span>
-          <p className="text-sm uppercase tracking-wide">Organic Ingredients</p>
-        </div>
-
-        <div className="flex flex-col items-center">
-          <span className="text-3xl font-bold text-amber-400">20K+</span>
-          <p className="text-sm uppercase tracking-wide">Happy Clients</p>
+        
+        <div className="flex justify-center md:justify-end">
+          <img
+            src={heroImg}
+            alt="Hero Banner"
+            className="w-full max-w-md rounded-2xl shadow-lg"
+          />
         </div>
       </div>
     </section>

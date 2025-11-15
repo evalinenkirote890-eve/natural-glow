@@ -1,37 +1,53 @@
 import React from "react";
-import Header from "./components/layout/Header";
+
+// Layout
+import Navbar from "./components/layout/Navbar";
+import Footer from "./components/layout/Footer";
+
+// Sections
 import Hero from "./components/sections/Hero";
 import About from "./components/sections/About";
 import Features from "./components/sections/Features";
 import Products from "./components/sections/Products";
-import Newsletter from "./components/sections/Newsletter";
 import Manufacturers from "./components/sections/Manufacturers";
-import Testimonials from "./components/common/Testimonials";
-import Button from "./components/common/Button";
-import Cards from "./components/common/Cards";
-import SectionWrapper from "./components/common/SectionWrapper";
-import Footer from "./components/layout/Footer";
-import "./index.css";
+import Newsletter from "./components/sections/Newsletter";
 
-function App() {
+// Common
+import Testimonials from "./components/common/Testimonials";
+
+const App = () => {
   return (
-    <>
-      <Header />
-      <main>
-        <Hero />
-        <About />
-        <Features />
-        <Products />
-        <Newsletter />
-        <Manufacturers />
-        <Testimonials />
-        <Button />
-        <Cards />
-        <SectionWrapper />
-      </main>
+    <div className="font-poppins bg-white text-gray-900">
+
+      {/* Navbar */}
+      <Navbar />
+
+      {/* Hero Section */}
+      <Hero />
+
+      {/* About Section */}
+      <About />
+
+      {/* Features Section */}
+      <Features />
+
+      {/* Products Section */}
+      <Products />
+
+      {/* Manufacturers Section */}
+      <Manufacturers />
+
+      {/* Testimonials Section */}
+      <Testimonials />
+
+      {/* Newsletter Section */}
+      <Newsletter />
+
+      {/* Footer */}
       <Footer />
-    </>
+      
+    </div>
   );
-}
+};
 
 export default App;
