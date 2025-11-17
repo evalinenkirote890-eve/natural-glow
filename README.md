@@ -5,7 +5,7 @@
 IYF Final Project – Developed by: Evaline Nkirote Muriithi
 
 🔗 Live Deployment: https://natural-glow-theta.vercel.app/
-🔗 GitHub Repository: https://github.com/YOUR-USERNAME/NaturalGlow
+🔗 GitHub Repository: https://github.com/evalinenkirote890-eve/natural-glow.git
 📁 Screenshots Folder: /screenshots (LG, MD, SM + Lighthouse)
 
 
@@ -231,7 +231,7 @@ Hosted on Vercel with:
 📦 GitHub Repository
 
 Full source code & commit history:
-🔗 https://github.com/YOUR-USERNAME/NaturalGlow
+🔗 https://github.com/evalinenkirote890-eve/natural-glow.git
 
 
 ---
