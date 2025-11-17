@@ -1,30 +1,25 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-// IMPORT IMAGES (correct Vite way)
 import heroBg from "../../assets/images/hero-banner.jpg"; 
 import productComposition from "../../assets/images/hero-product-composition.jpg";
 
-// IMPORT STATS (Separate File)
 import Stats from "./Stats";
 
 export default function Hero() {
   return (
     <section className="relative w-full h-[95vh] flex items-center overflow-hidden">
 
-      {/* Background */}
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url(${heroBg})` }}
       />
 
-      {/* Blur overlay */}
-      <div className="absolute inset-0 bg-black/40 backdrop-blur-sm" />
+ <div className="absolute inset-0 bg-[#184d47]/40" />
 
       <div className="relative container mx-auto px-6 md:px-20">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
 
-          {/* LEFT SIDE */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -51,13 +46,11 @@ export default function Hero() {
               </button>
             </div>
 
-            {/* STATS (Separate file) */}
             <div className="mt-12">
               <Stats />
             </div>
           </motion.div>
 
-          {/* RIGHT SIDE IMAGE */}
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
