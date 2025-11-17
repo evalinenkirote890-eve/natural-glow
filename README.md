@@ -1,40 +1,28 @@
----
-
 🌿 NATURAL GLOW – Organic Skincare Website
 
 IYF Final Project – Developed by: Evaline Nkirote Muriithi
 
 🔗 Live Deployment: https://natural-glow-theta.vercel.app/
 🔗 GitHub Repository: https://github.com/evalinenkirote890-eve/natural-glow.git
-📁 Screenshots Folder: /screenshots (LG, MD, SM + Lighthouse)
+
+## 📸 Screenshots
+
+### 🖥 Large Screens (LG)
+![Home](screenshots/lg-home.png)
+![Features](screenshots/lg-features.png)
+
+### 📱 Mobile (SM)
+![Mobile Home](screenshots/sm-home.png)
+![Mobile Navigation](screenshots/sm-nav.png)
+![Mobile Products](screenshots/sm-products.png)
+
+### 📟 Tablet (MD)
+![Tablet Hero](screenshots/md-hero.png)
 
 
----
-
-📸 Project Screenshots
-
-(place your actual screenshots inside /screenshots and add their names below)
-
-LG – Desktop View
-
-/screenshots/lg-home.png
-/screenshots/lg-features.png
-
-MD – Tablet View
-
-/screenshots/md-hero.png
-
-SM – Mobile View
-
-/screenshots/sm-nav.png
-/screenshots/sm-products.png
-
-Lighthouse Scores
-
-/screenshots/lighthouse-report.png
-
-
----
+## 📊 Lighthouse Performance Scores
+![Lighthouse Scores](screenshots/lighthouse-scores.png)
+![Lighthouse Full Report](screenshots/lighthouse-report.png)
 
 🌿 Project Summary
 
@@ -43,8 +31,6 @@ It replicates the LG desktop layout with pixel accuracy while featuring a unique
 
 The website is fully responsive across SM, MD, and LG breakpoints.
 
-
----
 
 🏷 Brand Identity
 
@@ -57,7 +43,6 @@ Brand Voice: Calm · Feminine · Clean · Organic
 Target Audience: People who prefer gentle, natural skincare products
 
 
----
 
 🎨 Color System (Tailwind Config)
 
@@ -73,8 +58,6 @@ Neutral Light	#fffaf7	Global background
 Rationale: Warm earth tones represent purity, skin health & nature.
 
 
----
-
 🔤 Typography
 
 Headings: Playfair Display — Elegant, premium beauty feel
@@ -83,9 +66,6 @@ Body: Poppins — Clean, modern, readable
 
 Weights Used: 300, 400, 600
 
-
-
----
 
 🧩 Project Features
 
@@ -101,8 +81,6 @@ Weights Used: 300, 400, 600
 ✔ Clean Tailwind utilities
 ✔ Semantic HTML
 
-
----
 
 🗂 Complete Folder Structure (With Your Images)
 
@@ -154,7 +132,6 @@ natural-glow/
 └── README.md
 
 
----
 
 🎯 Design Accuracy – IYF Requirements
 
@@ -197,8 +174,6 @@ Proper color contrast
 
 
 
----
-
 ⚡ Performance Optimizations
 
 Lazy-loading on all images
@@ -211,10 +186,6 @@ Reusable components
 
 Lighthouse scores above 90+
 
-
-
----
-
 🌐 Deployment
 
 Hosted on Vercel with:
@@ -226,15 +197,11 @@ Hosted on Vercel with:
 🔗 Live: https://natural-glow-theta.vercel.app/
 
 
----
 
 📦 GitHub Repository
 
 Full source code & commit history:
 🔗 https://github.com/evalinenkirote890-eve/natural-glow.git
-
-
----
 
 🧠 Challenges & Solutions
 
@@ -252,7 +219,6 @@ object-cover, aspect-video, rounded-xl.
 Implemented mobile toggle + hidden/visible classes.
 
 
----
 
 🚀 Future Improvements
 
@@ -267,9 +233,6 @@ Dark mode
 Blog section
 
 
-
----
-
 📄 Image Credits
 
 All images sourced from:
@@ -280,13 +243,8 @@ Pexels
 
 
 
----
-
 👩‍💻 Author
 
 Evaline Nkirote Muriithi
 IYF Software Development Cohort
 Final React + TailwindCSS Project Submission
-
-
----
