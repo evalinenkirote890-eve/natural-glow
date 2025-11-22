@@ -8,22 +8,15 @@ IYF Final Project – Developed by: Evaline Nkirote Muriithi
 ## 📸 Screenshots
 
 ### 🖥 Large Screens (LG)
-![Home](screenshots/lg-home.png)
-![Features](screenshots/lg-features.png)
+![Home](./src/screenshots/lg-home.png)
+![Features](./src/screenshots/lg-features.png)
 
 ### 📱 Mobile (SM)
-![Mobile Home](screenshots/sm-home.png)
-![Mobile Navigation](screenshots/sm-nav.png)
-![Mobile Products](screenshots/sm-products.png)
+![Mobile Navigation](./src/screenshots/sm-nav.png)
+![Mobile Products](./src/screenshots/sm-products.png)
 
-### 📟 Tablet (MD)
-![Tablet Hero](screenshots/md-hero.png)
-
-
-## 📊 Lighthouse Performance Scores
-![Lighthouse Scores](screenshots/lighthouse-scores.png)
-![Lighthouse Full Report](screenshots/lighthouse-report.png)
-
+### 📊 Lighthouse Performance Scores
+![Lighthouse Report](./src/screenshots/lighthouse-report.png)
 🌿 Project Summary
 
 Natural Glow is a clean, modern, nature-themed skincare website built to meet every requirement of the IYF Final React + TailwindCSS project.
@@ -36,7 +29,8 @@ The website is fully responsive across SM, MD, and LG breakpoints.
 
 Brand Name: Natural Glow
 
-Tagline: Where Pure Beauty Begins
+Tagline: “Botanical + science — skincare crafted to hydrate, repair and reveal radiance.”
+
 
 Brand Voice: Calm · Feminine · Clean · Organic
 
